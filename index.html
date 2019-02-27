@@ -11,7 +11,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <!-- Latest compiled JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
   </head>
   <body>
     <script> document.body.className = 'fade';
@@ -28,7 +28,7 @@
            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu
              <span class="caret"></span></a>
              <ul class="dropdown-menu">
-               <li><a href="appetizers.html">Appitizers</a></li>
+               <li><a href="appetizers.html">Appetizers</a></li>
                <li><a href="dinner.html">Dinner</a></li>
                <li><a href="dessert.html">Dessert</a></li>
              </ul>
@@ -53,8 +53,8 @@
       <div class="container">
         <div class="hero-image">
           <div class="hero-text">
-            <h1 style="font-size:50px">Introducing:</h1>
-            <h3>Chef Bob: and our new Intro Chicago Menu</h3>
+            <h1 style="font-size:50px">INTRODUCING:</h1>
+            <h3>Chef Bob and our new menu</h3>
           </div>
         </div>
       </div>
@@ -92,21 +92,19 @@
 
 
 <div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-  <div class="jumbotron">
-    <h1 class="display-4">Ready to get in touch?</h1>
-     <p class="lead">We would love to see you in our restaurnt soon. Fill out the form to reserve your spot.</p>
-     <hr class="my-4">
+  <div class="row" id="contact">
+    <div class="col-sm-5">
+        <h1 class="display-4">Ready to connect?</h1>
+        <p class="lead">We would love to see you in our restaurnt soon. Fill out the form to reserve your spot.</p>
+        <hr class="my-4">
        <p>A member of our team will confirm your reservation within 24 hours.</p>
        <p class="lead">
    </p>
  </div>
- </div>
 
-
-    <div class="col-sm-6">
+    <div class="col-sm-5">
       <h1>Contact us to reserve your table now!</h1>
+      <br>
         <form action="action_page.php" onsubmit="return validateForm()" method="post" name="myForm">
           <label for="fname">Name</label>
             <input type="text" name="fname"><br>
@@ -118,7 +116,7 @@
             <input type="tel" id="phone" name="fphone"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
             <span class="note">Format: 123-456-7890</span><br>
-
+            <br>
             <label for="fnumber">Number of party members</label>
             <input type="number" name="fnumber"><br>
 
@@ -129,7 +127,7 @@
             <input type="time" id="appt" name="ftime"
             min="9:00" max="18:00"><br>
             <span class="note">Restaurant hours are 9am to 6pm</span><br>
-
+            <br>
             <label for="fmessage">Any additional Information</label>
             <input type="text" name="fmessage"><br>
             <br>
@@ -149,24 +147,21 @@
 
   </body>
     <footer class="page-footer font-small pt-4">
-      <hr class="clearfix w-100 d-md-none pb-3">
       <div class="container-fluid text-center text-md-left">
 
-      <!-- Grid row -->
       <div class="row">
 
-        <div class="col-md-8 mt-md-0 mt-3">
+        <div class="col-md-7 mt-md-0 mt-3">
 
-          <!-- Content -->
           <h5 class="text-uppercase">Intro Chicago</h5>
-          <p>A Lettuce Entertain You Restaurant</p>
+          <p>1234 Main Street</p>
+          <p>Chicago IL 60625</p>
+          <p>123-123-1234</p>
 
         </div>
 
-        <!-- Grid column -->
         <div class="col-md-3 mb-md-0 mb-3">
 
-            <!-- Links -->
             <h5 class="text-uppercase">Links</h5>
 
             <ul class="list-unstyled">
@@ -187,15 +182,12 @@
           </div>
 
       </div>
-      <!-- Grid row -->
 
     </div>
-    <!-- Footer Links -->
 
-    <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2019 Copyright:
       <p>Lettuce Entertain You Enterprices</a>
     </div>
-    <!-- Copyright -->
+
   </footer>
 </html>
