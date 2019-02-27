@@ -1,6 +1,7 @@
 # lettuce_entertain_you
 
 **copied from LEYE PDF:**
+
 Requirements for this project and where to find them:
 
 ● Must be responsive
@@ -39,4 +40,4 @@ _see logo in hero shot on index page_
 
 ● Upload to a GitHub repo where we can pull from and let Christopher know
 
-_repo is here and you can also find a deployment at: https://lettuce-entertain-you-es.herokuapp.com/
+_repo is here and you can also find a deployment at_: https://lettuce-entertain-you-es.herokuapp.com/
