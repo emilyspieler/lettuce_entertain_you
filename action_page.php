@@ -16,7 +16,7 @@
   mail($admin_email, "$fname", $fphone, $fnumber, $fdate, $ftime, $fmessage, "From:" . $femail);
 
   //Email response
-  echo "Thank you for contacting us! someone will be in touch within 24 hours to confirm your reservation";
+  echo '<div class="php-form">Thank you for contacting us someone will be in touch within 24 hours</div>';
   }
 
   //if "email" variable is not filled out, display the form
