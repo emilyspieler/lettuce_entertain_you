@@ -12,7 +12,7 @@ _tested on multiple sizes of screens- feel free to try on your cell phone. Also 
 
 ● Must include a navigation bar with at least five links. The links do not need to go anywhere
 
-_there are 3 main links on the nav bar with 3 sublinks under the "menu" option. This will total 6 total links. The Intro Chicago also links back to the home page_
+_there are 4 main links on the nav bar with 3 sublinks under the "menu" option. This will total 7 total links. The Intro Chicago also links back to the home page_
 
 ● Must include a footer
 
