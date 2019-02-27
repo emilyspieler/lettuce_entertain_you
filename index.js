@@ -37,9 +37,4 @@ else if (z == "") {
   return false;
 }
 
-else if (zz == "") {
-  alert("Message must be filled out");
-  return false;
-}
-
 }
