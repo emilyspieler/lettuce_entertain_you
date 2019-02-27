@@ -3,7 +3,7 @@
   if (isset($_REQUEST['femail']))  {
 
   //Email information
-  $admin_email = "emily@emilyspielerphotography.com";
+  $admin_email = "emily@introchicago.live";
   $fname = $_REQUEST['fname'];
   $femail = $_REQUEST['femail'];
   $fphone = $_REQUEST['fphone'];
