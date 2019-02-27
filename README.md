@@ -2,6 +2,8 @@
 
 **copied from LEYE PDF:**
 
+_any italicized notes indicate emily's comments on where to locate assignment details_
+
 Requirements for this project and where to find them:
 
 ● Must be responsive
@@ -18,7 +20,7 @@ _footer is located at the bottom of the page and includes additional links and (
 
 ● Must include a contact form and form must validate using either JavaScript or PHP
 
-_validated using JS - also integrated some HTML5 methods to confirm syntax entered by user. Please confirm these practices by examining index.html and index.js_
+_validated using JS. I also integrated some HTML5 methods that confirms correct syntax entered by user. You may further examine these practices by examining index.html and index.js_
 
 **Additional Notes**:
 
