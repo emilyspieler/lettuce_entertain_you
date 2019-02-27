@@ -5,15 +5,15 @@
   //Email information
   $admin_email = "emily@emilyspielerphotography.com";
   $fname = $_REQUEST['fname'];
-  $fname = $_REQUEST['femail'];
-  $fname = $_REQUEST['fphone'];
-  $fname = $_REQUEST['fnumber'];
-  $fname = $_REQUEST['fdate'];
-  $fname = $_REQUEST['ftime'];
-  $fname = $_REQUEST['fmessage'];
+  $femail = $_REQUEST['femail'];
+  $fphone = $_REQUEST['fphone'];
+  $fnumber = $_REQUEST['fnumber'];
+  $fdate = $_REQUEST['fdate'];
+  $ftime = $_REQUEST['ftime'];
+  $fmessage = $_REQUEST['fmessage'];
 
   //send email
-  mail($admin_email, "$subject", $comment, "From:" . $email);
+  mail($admin_email, "$fname", $fphone, $fnumber, $fdate, $ftime, $fmessage, "From:" . $femail);
 
   //Email response
   echo "Thank you for contacting us! someone will be in touch within 24 hours to confirm your reservation";
@@ -23,7 +23,7 @@
   else  {
 ?>
 
-<h1>there was an error please go back and try again<h1>
+  <h1>there was an error please go back and try again<h1>
 
 
 <?php
